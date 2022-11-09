@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Travelling through a Screen: GeoGuessr</title>        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <style>
+            body {
+                width: 1920px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: auto;
+                background-color: #D6D1B1;
+            }
+            ul {
+                list-style-type: none;
+                margin-left: 0px;
+                margin-right: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-bottom: 40px;
+            }
+
+            ul li {
+                float: left;
+                font-family: 'Montserrat', sans-serif;
+                background-color: #819D7B;
+                width: 20%;
+            }
+            ul li a {
+                display: block;
+                color: #0F1108;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            ul li a:hover {
+                background-color: rgba(15, 17, 8, 0.904);
+                -webkit-text-fill-color: white;
+            } 
+            h1, h2 {
+                font-family: 'Abel', sans-serif;
+            }
+            p {
+                font-family: 'Montserrat', sans-serif;
+            }
+            #header {
+                height: 90px;   
+            }
+            #pagetitle {
+                font-family: 'Abel', sans-serif;
+                font-size: 45pt;
+                color: Black;
+                padding-left: 20px;
+                margin-top: 10px;
+            }
+            #paragraph {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 32pt;
+                color: Black;
+                padding-top: 100px;
+                padding-right: 20px;
+            }
+            .container1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                background-color: rgba(153, 125, 88, 0.552);
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .container2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                background-color: rgb(163, 157, 131);
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            img {
+                max-width: 100%
+
+            }
+            .image {
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .text {
+                font-size: 20px;
+            }
+            #header1 {
+                margin-left: 887px;
+                margin-right: 887px;
+            }
+            #header2 {
+                margin-left: 893px;
+                margin-right: 893px;
+            }
+            .h2 {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+                .dropbtn {
+                background-color: #819D7B;
+                color: #0F1108;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #819D7B;
+                font-family: 'Montserrat', sans-serif;
+                min-width: 160px;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #0F1108;
+                -webkit-text-fill-color: white;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: #0F1108;
+                -webkit-text-fill-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <p id="pagetitle">Travelling through a Screen: GeoGuessr</p>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">What is GeoGuessr?</a></li>
+                <li><a href="Gamemodes.html">Gamemodes</a></li>
+                <li><a href="Strategies.html">Strategies</a></li>
+                <li><a href="Famous_Players.html">Famous Players</a></li>
+                <li><a href="About_Me.html">About Me</a></li>
+            </ul>
+        </div>
+        <h2>There are a lot things that you should keep in mind in order to correctly guess your location. Here a a couple that I have learned throughout the times that have helped me narrow down my location.</h2>
+        <div class="dropdown">
+            <button class="dropbtn">Continents</button>
+            <div class="dropdown-content">
+              <a href="#Africa">Africa</a>
+              <a href="#Asia">Asia</a>
+              <a href="#Europe">Europe</a>
+              <a href="#North_America">North America</a>
+              <a href="#South_America">South America</a>
+            </div>
+          </div>
+        <div id="main">
+            <div id="article">
+                    <div id="Africa">
+                        <h1>Africa</h1>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>Botswana, Eswatini, Lesotho, and South Africa</h2>
+                                <p>In the countries of Botswana, Eswatini, Lesotho, and South Africa, you will see that the shoulder lines (outer lines) are yellow and the the inner lines are white. These are the only countries in Africa with this present.</p>
+                            </div>
+                            <div class="image">
+                                <img src="img8.jpg" alt="geoguessr" width="940" height="270">
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img9.png" alt="geoguessr" width="470" height="353">
+                            </div>
+                            <div class="text">
+                                <h2>Ghana</h2>
+                                <p>In Ghana, you will see that there is duct tape on the front-right roof rack of the car used to record Google Street View.</p>
+                            </div>
+                        </div>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>Kenya</h2>
+                                <p>In Kenya, you will see that the car has this snorkel-shaped object at the front of the car.</p>
+                            </div>
+                            <div class="image">
+                                <img src="img10.jpg" alt="geoguessr" width="468" height="321">
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img11.png" alt="geoguessr" width="470" height="353">
+                            </div>
+                            <div class="text">
+                                <h2>Senegal</h2>
+                                <p>In Senegal, you will see what looks to be rifts in the sky.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Asia">
+                        <h1>Asia</h1>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>Israel</h2>
+                                <p>In Israel, along with the use of the Jewish language, you will see an EU-styled license plate where it is a yellow plate with a blue stripe on the left.</p>
+                            </div>
+                            <div class="image">
+                                <img src="img12.jpg" alt="geoguessr">
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img13.jpg" alt="geoguessr" width="470" height="353">
+                            </div>
+                            <div class="text">
+                                <h2>Kyrgyzstan</h2>
+                                <p>In Kyrgyzstan, along with its generally greyish look, you will commonly see the google car with roof racks like this.</p>
+                            </div>
+                        </div>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>Mongolia</h2>
+                                <p>In Mongolia, you will see it is quite barren an dry. You may also see this car and variations of it (although they all have roof racks).</p>
+                            </div>
+                            <div class="image">
+                                <img src="img14.jpg" alt="geoguessr">
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img15.jpg" alt="geoguessr" width="470" height="353">
+                            </div>
+                            <div class="text">
+                                <h2>Japan, South Korea, and Taiwan </h2>
+                                <p>In these countries, you will see some variation of a yellow and black striped pole. While rare, this may also be seen in the Philippines. To differentiate them, use their language. While similar, they're all easily recognizable. (pole in the image is from Taiwan)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Europe">
+                        <h1>Europe</h1>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>European Union</h2>
+                                <p>Countries in the EU will have this generally white license plate with a blue stripe on the left. There are exceptions which I will further discuss.</p>
+                            </div>
+                            <div class="image">
+                                <img src="img16.jpg" alt="geoguessr">
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img17.png" alt="geoguessr">
+                            </div>
+                            <div class="text">
+                                <h2>United Kingdom</h2>
+                                <p>In the UK, you will generally see these types of license plates (yellow, yellow with a blue stripe, or white), but yellow and yellow with a blue stripe are the most common</p>
+                            </div>
+                        </div>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>Portugal</h2>
+                                <p>Only in Portugal can you see a white license plate with a blue stripe on the left and a yellow stripe on the right.</p>
+                            </div>
+                            <div class="image">
+                                <img src="img18.jpg" alt="geoguessr">
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img19.jpg" alt="geoguessr">
+                            </div>
+                            <div class="text">
+                                <h2>Albania, France, and Italy</h2>
+                                <p>In these three countries, you will see that their license plates are white. but contain blue stripes on both sides of the plate.</p>
+                            </div>
+                        </div>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>Netherlands and Luxembourg</h2>
+                                <p>In these 2 countries, you will se their license plates are yellow with blue stripes. To differentiate them, Netherlands is flat, while Luxembourg has hills</p>
+                            </div>
+                            <div class="image">
+                                <img src="img20.jpg" alt="geoguessr">
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img21.jpg" alt="geoguessr">
+                            </div>
+                            <div class="text">
+                                <h2>Albania and Montenegro</h2>
+                                <p>In these two countries, you will see the rift that is also present in Senegal. To differentiate them, use the license plate of Albania, which has 2 blue stripes, while Montenegro has one.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="North_America">
+                        <h1>North America</h1>
+                        <div class="container1">
+                            <div class="text">
+                                <h2>Guatemala</h2>
+                                <p>In Guatemala, you can see the side mirror of the google car.</p>
+                            </div>
+                            <div class="image">
+                                <img src="img22.jpg" alt="geoguessr" width="600" height="400">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="South_America">
+                        <h1>South America</h1>
+                        <div class="container2">
+                            <div class="image">
+                                <img src="img23.png" alt="geoguessr">
+                            </div>
+                            <div class="text">
+                                <h2>Colombia</h2>
+                                <p>In Colombia, the license plates are yellow. The only other country that has this is Peru, which only has it for public vehicles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </body>
+</html>
+                
